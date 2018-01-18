@@ -1,0 +1,259 @@
+eduardo@work ~ $ git clone git@github.com:EduLH/Python.git
+Cloning into 'Python'...
+warning: You appear to have cloned an empty repository.
+Checking connectivity... done.
+eduardo@work ~ $ cp ../eduardo/
+AED/
+Área de Trabalho/
+.atom/
+.bash_history
+.bash_logout
+.bashrc
+.cache/
+.cinnamon/
+.codeblocks/
+.config/
+.dbus/
+.dmrc
+Documentos/
+Downloads/
+.eclipse/
+.gconf/
+.gimp-2.8/
+.gitconfig
+.gksu.lock
+hs_err_pid2319.log
+.ICEauthority
+.icons/
+Imagens/
+.java/
+.linuxmint/
+listaPOO.odt
+.local/
+Modelos/
+.mozilla/
+mozilla.pdf
+Música/
+.nano/
+node_modules/
+.npm/
+npm-debug.log
+.pki/
+.PlayOnLinux/
+PlayOnLinux's virtual drives/
+.profile
+Público/
+Python/
+.python_history
+.ssh/
+.sudo_as_admin_successful
+.swt/
+.themes/
+.thunderbird/
+.v8flags.4.5.103.35.6d6354ece40846bf7fca65dfabd5d9d4.json
+Vídeos/
+.wget-hsts
+workspace/
+.Xauthority
+.xinputrc
+--More--^C
+eduardo@work ~ $ pwd
+/home/eduardo
+eduardo@work ~ $ cd P
+PlayOnLinux's virtual drives/ Público/                      Python/
+eduardo@work ~ $ cd Python/
+eduardo@work ~/Python $ cp ../Área\ de\ Trabalho/
+cp: falta o operando arquivo de destino após '../Área de Trabalho/'
+Try 'cp --help' for more information.
+eduardo@work ~/Python $ cp ../Área\ de\ Trabalho/python/anagram.py 
+cp: falta o operando arquivo de destino após '../Área de Trabalho/python/anagram.py'
+Try 'cp --help' for more information.
+eduardo@work ~/Python $ cp ../Área\ de\ Trabalho/python/anagram.py .
+eduardo@work ~/Python $ cp ../Área\ de\ Trabalho/python/BtreeInsertRemov.py .
+eduardo@work ~/Python $ cp ../Área\ de\ Trabalho/python/DicionarioDeAndy.py .
+eduardo@work ~/Python $ cp ../Área\ de\ Trabalho/python/MenIntFalta.py .
+eduardo@work ~/Python $ cp ../Área\ de\ Trabalho/python/palindromo.py .
+eduardo@work ~/Python $ cp ../Área\ de\ Trabalho/python/permuta.py .
+eduardo@work ~/Python $ cp ../Área\ de\ Trabalho/python/StepWords.py .
+eduardo@work ~/Python $ cp ../Área\ de\ Trabalho/python/troco.py .
+eduardo@work ~/Python $ git status
+No ramo master
+
+Submissão inicial.
+
+Arquivos não monitorados:
+  (utilize "git add <arquivo>..." para incluir o que será submetido)
+
+	BtreeInsertRemov.py
+	DicionarioDeAndy.py
+	MenIntFalta.py
+	StepWords.py
+	anagram.py
+	palindromo.py
+	permuta.py
+	troco.py
+
+nada adicionado ao envio mas arquivos não registrados estão presentes (use "git add" to registrar)
+eduardo@work ~/Python $ git commit
+No ramo master
+
+Submissão inicial.
+
+Arquivos não monitorados:
+	BtreeInsertRemov.py
+	DicionarioDeAndy.py
+	MenIntFalta.py
+	StepWords.py
+	anagram.py
+	palindromo.py
+	permuta.py
+	troco.py
+
+nada adicionado ao envio mas arquivos não registrados estão presentes
+eduardo@work ~/Python $ git add .
+eduardo@work ~/Python $ git status
+No ramo master
+
+Submissão inicial.
+
+Mudanças a serem submetidas:
+  (utilize "git rm --cached <arquivo>..." para não apresentar)
+
+	new file:   BtreeInsertRemov.py
+	new file:   DicionarioDeAndy.py
+	new file:   MenIntFalta.py
+	new file:   StepWords.py
+	new file:   anagram.py
+	new file:   palindromo.py
+	new file:   permuta.py
+	new file:   troco.py
+
+eduardo@work ~/Python $ git commit
+Aborting commit due to empty commit message.
+eduardo@work ~/Python $ git commit "Codigos utilizados para aprender a linguagem Py
+> ^C
+eduardo@work ~/Python $ git commit "Codigo utilizado para aprender a linguagem Python"
+error: pathspec 'Codigo utilizado para aprender a linguagem Python' did not match any file(s) known to git.
+eduardo@work ~/Python $ git status
+No ramo master
+
+Submissão inicial.
+
+Mudanças a serem submetidas:
+  (utilize "git rm --cached <arquivo>..." para não apresentar)
+
+	new file:   BtreeInsertRemov.py
+	new file:   DicionarioDeAndy.py
+	new file:   MenIntFalta.py
+	new file:   StepWords.py
+	new file:   anagram.py
+	new file:   palindromo.py
+	new file:   permuta.py
+	new file:   troco.py
+
+eduardo@work ~/Python $ git commit -m "Codigo utilizado para aprender a linguagem Python"
+[master (root-commit) 170ed63] Codigo utilizado para aprender a linguagem Python
+ 8 files changed, 497 insertions(+)
+ create mode 100644 BtreeInsertRemov.py
+ create mode 100644 DicionarioDeAndy.py
+ create mode 100644 MenIntFalta.py
+ create mode 100644 StepWords.py
+ create mode 100644 anagram.py
+ create mode 100644 palindromo.py
+ create mode 100644 permuta.py
+ create mode 100644 troco.py
+eduardo@work ~/Python $ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 4.80 KiB | 0 bytes/s, done.
+Total 10 (delta 0), reused 0 (delta 0)
+To git@github.com:EduLH/Python.git
+ * [new branch]      master -> master
+eduardo@work ~/Python $ git log
+commit 170ed633f8e60b52bf0af56f052b6d0596ea7594
+Author: Marcos Eduardo <eduardo_lh@protonmail.com>
+Date:   Wed Jan 17 23:37:28 2018 -0200
+
+    Codigo utilizado para aprender a linguagem Python
+eduardo@work ~/Python $ 
+/---------------*--------------------/
+eduardo@work ~/AED $ git log
+commit d6ebbd73d490738aff05caa41a0cc026051aeb36
+Author: Marcos Eduardo <eduardo_lh@protonmail.com>
+Date:   Wed Jan 17 22:50:21 2018 -0200
+
+     Foi retirado o criaNo
+
+commit 2ba472cd76c3efa9f2c094361d3d365d8de5a97b
+Author: Marcos Eduardo <eduardo_lh@protonmail.com>
+Date:   Wed Jan 17 22:43:52 2018 -0200
+
+    Inserindo codigos executados na disciplida de AED1-2
+eduardo@work ~/AED $ git checkout ^C
+eduardo@work ~/AED $ git checkout 2ba472cd76c3efa9f2c094361d3d365d8de5a97b -- AVL.c
+eduardo@work ~/AED $ git status
+No ramo master
+Your branch is up-to-date with 'origin/master'.
+Mudanças a serem submetidas:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   AVL.c
+
+eduardo@work ~/AED $ git commit -m "Codigo de AED2"
+[master 62b84b6] Codigo de AED2
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+eduardo@work ~/AED $ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 345 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To git@github.com:EduLH/AED.git
+   d6ebbd7..62b84b6  master -> master
+eduardo@work ~/AED $ ^C
+
+
