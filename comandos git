@@ -2,61 +2,6 @@ eduardo@work ~ $ git clone git@github.com:EduLH/Python.git
 Cloning into 'Python'...
 warning: You appear to have cloned an empty repository.
 Checking connectivity... done.
-eduardo@work ~ $ cp ../eduardo/
-AED/
-Área de Trabalho/
-.atom/
-.bash_history
-.bash_logout
-.bashrc
-.cache/
-.cinnamon/
-.codeblocks/
-.config/
-.dbus/
-.dmrc
-Documentos/
-Downloads/
-.eclipse/
-.gconf/
-.gimp-2.8/
-.gitconfig
-.gksu.lock
-hs_err_pid2319.log
-.ICEauthority
-.icons/
-Imagens/
-.java/
-.linuxmint/
-listaPOO.odt
-.local/
-Modelos/
-.mozilla/
-mozilla.pdf
-Música/
-.nano/
-node_modules/
-.npm/
-npm-debug.log
-.pki/
-.PlayOnLinux/
-PlayOnLinux's virtual drives/
-.profile
-Público/
-Python/
-.python_history
-.ssh/
-.sudo_as_admin_successful
-.swt/
-.themes/
-.thunderbird/
-.v8flags.4.5.103.35.6d6354ece40846bf7fca65dfabd5d9d4.json
-Vídeos/
-.wget-hsts
-workspace/
-.Xauthority
-.xinputrc
---More--^C
 eduardo@work ~ $ pwd
 /home/eduardo
 eduardo@work ~ $ cd P
@@ -65,7 +10,7 @@ eduardo@work ~ $ cd Python/
 eduardo@work ~/Python $ cp ../Área\ de\ Trabalho/
 cp: falta o operando arquivo de destino após '../Área de Trabalho/'
 Try 'cp --help' for more information.
-eduardo@work ~/Python $ cp ../Área\ de\ Trabalho/python/anagram.py 
+eduardo@work ~/Python $ cp ../Área\ de\ Trabalho/python/anagram.py
 cp: falta o operando arquivo de destino após '../Área de Trabalho/python/anagram.py'
 Try 'cp --help' for more information.
 eduardo@work ~/Python $ cp ../Área\ de\ Trabalho/python/anagram.py .
@@ -197,7 +142,7 @@ Author: Marcos Eduardo <eduardo_lh@protonmail.com>
 Date:   Wed Jan 17 23:37:28 2018 -0200
 
     Codigo utilizado para aprender a linguagem Python
-eduardo@work ~/Python $ 
+eduardo@work ~/Python $
 /---------------*--------------------/
 eduardo@work ~/AED $ git log
 commit d6ebbd73d490738aff05caa41a0cc026051aeb36
@@ -255,5 +200,3 @@ remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To git@github.com:EduLH/AED.git
    d6ebbd7..62b84b6  master -> master
 eduardo@work ~/AED $ ^C
-
-
